@@ -6,12 +6,16 @@ Cada tarea representa un incremento funcional y demostrable. Las tareas se const
 
 ## Fase 1: Fundamentos
 
-### Task 1: Scaffolding del proyecto Tauri v2 + React
-- [ ] Inicializar proyecto con `create-tauri-app` (React + TypeScript)
-- [ ] Configurar `tauri.conf.json`: `decorations: false`, `transparent: true`, window bottom-right
-- [ ] System tray básico: ícono, click abre/cierra ventana
-- [ ] Setup ESLint, Prettier, estructura de carpetas base
-- [ ] **Demo:** App en tray, click abre/cierra ventana vacía en esquina inferior derecha
+### Task 1: Scaffolding del proyecto Tauri v2 + React ✅
+- [x] Inicializar proyecto con `create-tauri-app` (React + TypeScript)
+- [x] Configurar `tauri.conf.json`: `decorations: false`, `transparent: true`, window bottom-right, 340px ancho
+- [x] System tray: left-click toggle ventana, right-click menú Show/Hide + Quit
+- [x] Window close interceptado: oculta a tray en vez de cerrar
+- [x] Prettier config, `.gitignore`, estructura de carpetas completa
+- [x] Tipos base definidos: `Service`, `Account`, `Entry`, `CooldownProgress`, `UISettings`
+- [x] Design tokens CSS (`base.css`) y tema dark por defecto
+- [x] `db.ts` stub con migration runner (4 tablas)
+- [x] Rust: 0 errores, 0 warnings — TypeScript: 0 errores
 
 ### Task 2: SQLite + modelo de datos
 - [ ] Instalar y configurar `tauri-plugin-sql` con SQLite
@@ -102,7 +106,7 @@ Cada tarea representa un incremento funcional y demostrable. Las tareas se const
 
 | Fase | Tarea | Estado |
 |------|-------|--------|
-| 1 | Task 1: Scaffolding Tauri | ⬜ Pendiente |
+| 1 | Task 1: Scaffolding Tauri | ✅ Completado |
 | 1 | Task 2: SQLite + modelo de datos | ⬜ Pendiente |
 | 2 | Task 3: Store global + tipos | ⬜ Pendiente |
 | 2 | Task 4: Theming / design tokens | ⬜ Pendiente |
