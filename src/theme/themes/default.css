@@ -1,0 +1,29 @@
+/* ─── Quota Tracker — Default Dark Theme ────────────────────────────────────
+ * The default skin: dark background, vibrant status colors.
+ * This file re-declares all variables from base.css.
+ * It is imported after base.css so it can override any token.
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --color-bg-primary: #0f0f13;
+  --color-bg-secondary: #1a1a22;
+  --color-bg-tertiary: #22222e;
+  --color-bg-hover: #2a2a38;
+
+  --color-available: #22c55e;
+  --color-available-dim: #16a34a;
+  --color-cooling-start: #ef4444;
+  --color-cooling-mid: #f59e0b;
+  --color-cooling-end: #22c55e;
+  --color-burned: #ef4444;
+
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #475569;
+
+  --color-border: #2a2a38;
+  --color-border-hover: #3f3f52;
+
+  --color-accent: #818cf8;
+  --color-accent-hover: #6366f1;
+}

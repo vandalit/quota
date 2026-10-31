@@ -1,0 +1,68 @@
+/* ─── Quota Tracker — Base CSS Variables ────────────────────────────────────
+ * These are the canonical design tokens for the app.
+ * All skins MUST define every variable listed here.
+ * To create a new skin: copy themes/default.css, change the values,
+ * and import it instead of (or after) this file.
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Backgrounds */
+  --color-bg-primary: #0f0f13;
+  --color-bg-secondary: #1a1a22;
+  --color-bg-tertiary: #22222e;
+  --color-bg-hover: #2a2a38;
+
+  /* Status colors */
+  --color-available: #22c55e;        /* green — quota ready */
+  --color-available-dim: #16a34a;
+  --color-cooling-start: #ef4444;    /* red — just burned */
+  --color-cooling-mid: #f59e0b;      /* amber — halfway */
+  --color-cooling-end: #22c55e;      /* green — almost ready */
+  --color-burned: #ef4444;           /* used for the 🔥 button accent */
+
+  /* Text */
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #475569;
+
+  /* Borders */
+  --color-border: #2a2a38;
+  --color-border-hover: #3f3f52;
+
+  /* Accents */
+  --color-accent: #818cf8;           /* indigo — interactive elements */
+  --color-accent-hover: #6366f1;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+
+  /* Typography */
+  --font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-base: 13px;
+  --font-size-md: 14px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  /* Bars */
+  --bar-height: 36px;
+  --bar-radius: var(--radius-md);
+
+  /* Panel */
+  --panel-width: 340px;
+  --panel-padding: var(--spacing-md);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
